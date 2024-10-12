@@ -9,6 +9,7 @@ namespace OthelloCS
     public class Board
     {
         /* ボード */
+        /* Singleton にする */
         private Square[,] _square;
 
         public Board()

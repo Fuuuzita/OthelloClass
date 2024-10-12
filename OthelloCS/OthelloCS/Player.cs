@@ -15,5 +15,13 @@ namespace OthelloCS
         {
             _color = myColor;
         }
+
+        /* 石をおく */
+        public void PutDisc(int row, int column)
+        {
+            Board board = new Board();
+
+            board.PlaceSquare(_color, row, column);
+        }
     }
 }
