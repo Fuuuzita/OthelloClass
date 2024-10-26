@@ -11,6 +11,10 @@ namespace OthelloCS
     {
         private Disc _disc;
 
+        public Square()
+        {
+        }
+
         public Disc MyDisc
         {
             get { return _disc; }
@@ -18,9 +22,9 @@ namespace OthelloCS
         }
 
         /* 設置する */
-        public void PutDisc(Color color)
+        public void PutDisc(Disc disc)
         {
-            _disc = new Disc(color);
+            _disc = disc;
         }
 
         /* 石ある? */
